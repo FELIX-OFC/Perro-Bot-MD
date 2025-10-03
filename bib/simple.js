@@ -1,4 +1,5 @@
 // #=== Editado por Ado [ Fix para rcanal en todos los mensajes ]
+// •••• github.com/meado-learner
 import path from 'path'  
 import { toAudio } from './converter.js'
 import chalk from 'chalk'
