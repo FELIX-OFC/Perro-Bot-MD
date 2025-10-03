@@ -1,6 +1,6 @@
 // Código creado por Félix
 
-import { smsg } from "./lib/simple.js"
+import { smsg } from "./bib/simple.js"
 import { fileURLToPath } from "url"
 import path, { join } from "path"
 import fs, { unwatchFile, watchFile } from "fs"
@@ -237,7 +237,7 @@ export async function handler(chatUpdate) {
       user.exp += m.exp
     }
     try {
-      if (!global.opts["noprint"]) await (await import("./lib/print.js")).default(m, this)
+      if (!global.opts["noprint"]) await (await import("./bib/print.js")).default(m, this)
     } catch (err) {
       console.warn(err)
       console.log(m.message)
