@@ -18,9 +18,9 @@ import pino from 'pino'
 import Pino from 'pino'
 import path, { join } from 'path'
 import { Boom } from '@hapi/boom'
-import { makeWASocket, protoType, serialize } from './lib/simple.js'
+import { makeWASocket, protoType, serialize } from './bib/simple.js'
 import { Low, JSONFile } from 'lowdb'
-import store from './lib/store.js'
+import store from './bib/store.js'
 const { proto } = (await import('@whiskeysockets/baileys')).default
 import pkg from 'google-libphonenumber'
 const { PhoneNumberUtil } = pkg
