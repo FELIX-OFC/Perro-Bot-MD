@@ -1,5 +1,5 @@
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
-import './settings.js'
+import './perroBot.js'
 import './plugins/_allfake.js'
 import cfonts from 'cfonts'
 import boxen from 'boxen'
