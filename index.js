@@ -33,15 +33,15 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 
 let { say } = cfonts
 console.log(chalk.magentaBright('\n❀ Iniciando...'))
-say('Perro Suou', {
+say('Perro Bot', {
 font: 'simple',
 align: 'left',
-gradient: ['green', 'white']
+gradient: ['red', 'white']
 })
-say('Made with love by Destroy', {
+say('Hecho por Felix, Ado.', {
 font: 'console',
 align: 'center',
-colors: ['cyan', 'magenta', 'yellow']
+colors: ['blue', 'magenta', 'yellow']
 })
 protoType()
 serialize()
